@@ -1,0 +1,107 @@
+/* @import url(https://fonts.); */
+
+* {
+    position: inherit;
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+html {
+  font-size: 62.5%;
+
+  
+}
+body{
+    color: #eee;
+    background-color: dimgray;
+
+}
+header {
+    height: 35vh;
+  position: relative;
+  /* flex-direction: column; */
+  border-bottom: 7px solid #eee;
+  /* align-items: center; */
+  /* justify-content: ; */
+  width: 100%;
+
+}
+main{
+    height: 65vh;
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.again {
+  width: 150px;
+  height: 50px;
+  font-size: larger;
+}
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  position: absolute;
+  width: 100%;
+  /* top: 52%;
+  left: 50%; */
+  /* transform: translate(-50% , -50%); */
+}
+.between {
+    font-size: 1.4rem;
+  text-align: center;
+  position: relative;
+  right: 0;
+}
+.number {
+  background-color: aliceblue;
+  width: 15rem;
+  height: 6rem;
+  padding: 1rem 0rem;
+  text-align: center;
+  position: relative;
+  top:55%;
+ 
+  left: 43%;
+  /* align-items: center; */
+  color: black;
+  font-size: 4rem;
+  /* transform: translate(-50% , -50%); */
+  
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 80px; */
+  width: 52rem;
+}
+.right {
+    width: 52rem;
+    font-size: 2rem;
+}
+.guess {
+  background-color: dimgray;
+  width: 200px;
+  height: 80px;
+  margin-left: 50px;
+  border: 3px solid white;
+  text-align: center;
+  font-size: 35px;
+}
+.check {
+  width: 120px;
+  height: 50px;
+  margin-top: 15px;
+  margin-left: 90px;
+  font-size: larger;
+}
+
+.message {
+  margin-bottom: 20px;
+}
